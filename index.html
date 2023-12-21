@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="lefts">
+        <div>
+        <h1 id="head">The Calculator</h1><br>
+        <p>For your Mathemathical Calculations</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="calculator">
+            <div class="head1">
+             <p>Calculator</p>
+            </div>
+
+           <div class="screenSize">
+            <input type="text" id="screen">
+           </div>
+
+           <div class="switches">
+             <div class="btSet1 bts">
+                <button class="btn" value="7" onclick="btnclick(value)">7</button>
+                <button class="btn" value="8" onclick="btnclick(value)">8</button>
+                <button class="btn" value="9" onclick="btnclick(value)">9</button>
+                <button class="btn" value="/" onclick="btnclick(value)">/</button>
+
+             </div>
+             <div class="btSet2 bts">
+                <button class="btn" value="4" onclick="btnclick(value)">4</button>
+                <button class="btn" value="5" onclick="btnclick(value)">5 </button>
+                <button class="btn" value="6" onclick="btnclick(value)">6</button>
+                <button class="btn" value="*" onclick="btnclick(value)">*</button>
+
+             </div>
+             <div class="btSet3 bts">
+                <button class="btn" value="1" onclick="btnclick(value)">1</button>
+                <button class="btn" value="2" onclick="btnclick(value)">2</button>
+                <button class="btn" value="3" onclick="btnclick(value)">3</button>
+                <button class="btn" value="+" onclick="btnclick(value)">+</button>
+
+             </div>
+             <div class="btSet4 bts">
+                <button class="btn red" value="C" onclick="clearScreen()">C</button>
+                <button class="btn" value="0" onclick="btnclick(value)">0</button>
+                <button class="btn" value="=" onclick="findResult()">=</button>
+                <button class="btn" value="-" onclick="btnclick(value)">-</button>
+
+             </div>
+           </div>
+          
+          
+        </div>
+
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
